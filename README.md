@@ -1,5 +1,4 @@
-# Foundry Template [![Open in Gitpod][gitpod-badge]][gitpod] [![Github Actions][gha-badge]][gha] [![Foundry][foundry-badge]][foundry] [![License: MIT][license-badge]][license]
-
+# SwapGatekeeper Demo [![Github Actions][gha-badge]][gha] [![Foundry][foundry-badge]][foundry] [![License: MIT][license-badge]][license]
 [gitpod]: https://gitpod.io/#https://github.com/Sengoku11/uniswap-v3-tests
 [gitpod-badge]: https://img.shields.io/badge/Gitpod-Open%20in%20Gitpod-FFB45B?logo=gitpod
 [gha]: https://github.com/Sengoku11/uniswap-v3-tests/actions
@@ -9,7 +8,14 @@
 [license]: https://opensource.org/licenses/MIT
 [license-badge]: https://img.shields.io/badge/License-MIT-blue.svg
 
-A Foundry-based template for developing Solidity smart contracts, with sensible defaults.
+The purpose of the SwapGatekeeper contract is to serve as a precursor to sending transactions
+to the router. Here you can check the profitability of the trade during its execution
+and take other security measures.
+
+After finalizing this contract, you can receive transactions from many whitelist wallets
+from different geolocations using meta-transactions.
+
+Since this is a demo, the emphasis is on the development environment and testing methods.
 
 ## What's Inside
 
@@ -21,15 +27,8 @@ A Foundry-based template for developing Solidity smart contracts, with sensible 
 
 ## Getting Started
 
-Click the [`Use this template`](https://github.com/PaulRBerg/foundry-template/generate) button at the top of the page to
-create a new repository with this repo as the initial state.
-
-Or, if you prefer to install the template manually:
-
 ```sh
-$ mkdir my-project
-$ cd my-project
-$ forge init --template PaulRBerg/foundry-template
+$ git clone git@github.com:Sengoku11/uniswap-v3-tests.git
 $ bun install # install Solhint, Prettier, and other Node.js deps
 ```
 
