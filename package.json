@@ -7,7 +7,8 @@
     "url": "https://github.com/Sengoku11"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.0.1"
+    "@openzeppelin/contracts": "^5.0.1",
+    "@uniswap/swap-router-contracts": "^1.3.1"
   },
   "devDependencies": {
     "forge-std": "github:foundry-rs/forge-std#v1.8.1",
