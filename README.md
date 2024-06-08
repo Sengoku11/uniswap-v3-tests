@@ -1,4 +1,5 @@
 # SwapGatekeeper Demo [![Github Actions][gha-badge]][gha] [![Foundry][foundry-badge]][foundry] [![License: MIT][license-badge]][license]
+
 [gitpod]: https://gitpod.io/#https://github.com/Sengoku11/uniswap-v3-tests
 [gitpod-badge]: https://img.shields.io/badge/Gitpod-Open%20in%20Gitpod-FFB45B?logo=gitpod
 [gha]: https://github.com/Sengoku11/uniswap-v3-tests/actions
@@ -8,12 +9,11 @@
 [license]: https://opensource.org/licenses/MIT
 [license-badge]: https://img.shields.io/badge/License-MIT-blue.svg
 
-The purpose of the SwapGatekeeper contract is to serve as a precursor to sending transactions
-to the router. Here you can check the profitability of the trade during its execution
-and take other security measures.
+The purpose of the SwapGatekeeper contract is to serve as a precursor to sending transactions to the router. Here you
+can add the profitability check of the trade during its execution and take other security measures.
 
-After finalizing this contract, you can receive transactions from many whitelist wallets
-from different geolocations using meta-transactions.
+After finalizing this contract, you can receive transactions from many whitelist wallets from different geolocations
+using meta-transactions.
 
 Since this is a demo, the emphasis is on the development environment and testing methods.
 
